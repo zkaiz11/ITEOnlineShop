@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="4dp"
+        android:text="@string/products"
+        android:textSize="32sp"
+        android:textColor="@color/cus_purple"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/rounded_product_list_item"
+        android:inputType="textShortMessage|textLongMessage"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="4dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableEnd="@drawable/ic_camera"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productItemViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

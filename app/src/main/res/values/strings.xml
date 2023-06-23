@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ITE Online Shop</string>
+
+    <!--Landing Menu-->
+    <string name="home">Home</string>
+    <string name="product">Product</string>
+    <string name="profile">Profile</string>
+    <string name="more">More</string>
+
+    <!--Product Items-->
+    <string name="products">Products</string>
+
+    <string name="search">Search</string>
+
+    <string name="myProfile">My Profile</string>
+
+    <!--Home-->
+
+</resources>
